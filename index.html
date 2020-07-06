@@ -6,12 +6,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- !Title -->
-        <title>web-template</title>
+        <title>Rock, Paper & Scissor</title>
 
         <!-- !CSS file -->
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
+        <div class="container">
+            <!-- //Heading -->
+            <h1>Rock Paper Scissor</h1>
+            <!-- //Images -->
+            <div class="flexBoxRPS" id="flexBoxRPSdiv">
+                <img
+                    src="/images/rock.png"
+                    alt="Rock image"
+                    onclick="RPS(this)"
+                />
+                <img
+                    src="/images/paper.png"
+                    alt="Paper image"
+                    onclick="RPS(this)"
+                />
+                <img
+                    src="/images/scissors.jpg"
+                    alt="Scissor image"
+                    onclick="RPS(this)"
+                />
+            </div>
+        </div>
         <!-- !JS file -->
         <script src="scripts/script.js"></script>
     </body>
