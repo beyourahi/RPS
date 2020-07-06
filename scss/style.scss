@@ -3,3 +3,28 @@
 @import "config";
 
 // !Main Styles
+.container {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+
+    .heading {
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+
+    .flexBoxRPSclass {
+        padding: 30px;
+        display: flex;
+        justify-content: space-evenly;
+
+        img {
+            width: 150px;
+            height: 150px;
+
+            &:hover {
+                box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+            }
+        }
+    }
+}
