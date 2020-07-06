@@ -78,3 +78,7 @@ function rpsFrontEnd(humanImageChoice, BotImageChoice, finalMessage) {
     document.getElementById("flexBoxRPSid").appendChild(messageDiv);
     document.getElementById("flexBoxRPSid").appendChild(botDiv);
 }
+
+function reloadPage() {
+    location.reload();
+}
