@@ -1,11 +1,8 @@
-// !Variable Declarations
-
-// !Main Code
 function RPS(yourChoice) {
     let humanChoice = yourChoice.id;
     let botChoice = numToChoice(randToInt());
     console.log(`My Choice: ${humanChoice}`);
-    console.log(`Computer Choice: ${botChoice}`);
+    console.log(`Computers Choice: ${botChoice}`);
 
     let result = decideWinner(humanChoice, botChoice);
 

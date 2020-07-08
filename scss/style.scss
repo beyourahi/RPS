@@ -5,7 +5,6 @@
 // !Main Styles
 .heading {
     padding: 30px;
-    margin-bottom: 10px;
 }
 
 #flexBoxRPSid {
@@ -19,6 +18,8 @@
 
         &:hover {
             box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+            width: 145px;
+            height: 145px;
         }
     }
 }
@@ -33,7 +34,12 @@
     text-align: center;
     border-radius: 10px;
     background-color: rgb(25, 95, 25);
+
     &:hover {
-        background-color: rgba(25, 95, 25, 0.61);;
+        background-color: rgba(25, 95, 25, 0.61);
+    }
+
+    &:focus {
+        background-color: rgb(26, 187, 26);
     }
 }
