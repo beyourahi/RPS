@@ -1,3 +1,3 @@
 # Simple Rock Paper Scissor Game 
 
-Check it out at => https://stupidrockpaperscissorgame.netlify.app/
+Check out the [Live Demo](https://stupidrockpaperscissorgame.netlify.app/)
